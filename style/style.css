@@ -462,16 +462,16 @@ nav .icone:hover {
   gap: 20px;
 }
 .offres .info-ofres .card {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: auto;
-  width: 300px;
-  gap: 20px;
-  background-color: #ffffff03;
-  padding: 30px;
-  border-radius: 30px;
-  backdrop-filter: blur(40px);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+        width: 300px;
+        gap: 20px;
+        background-color: #ffffff03;
+        padding: 30px;
+        border-radius: 30px;
+        backdrop-filter: blur(40px);
 }
 .offres .info-ofres .card i {
   color: gray;
