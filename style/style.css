@@ -137,8 +137,8 @@ nav .icone:hover {
 }
 .hero .info-hero h2 {
   color: white;
-  font-size: 55px;
-  max-width: 700px;
+  font-size: 50px;
+  max-width: 740px;
 }
 .hero .info-hero > p {
   margin: 20px 0px;
@@ -407,39 +407,84 @@ nav .icone:hover {
   color: #2bb32b;
 }
 
-.logos .container{
+.logos .container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-.logos .container img{
+.logos .container img {
   width: 200px;
 }
-.logos  {
+.logos {
   margin-top: 40px;
   width: 90%;
-  height: 300px;
+  height: auto;
   overflow: hidden;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .logos .container {
   display: flex;
-  width: calc(500px * 4); 
+  width: calc(500px * 4);
   animation: slide 20s linear infinite;
 }
-
-
 
 @keyframes slide {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1000px); 
+    transform: translateX(-1000px);
   }
+}
+.offres {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.offres h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.offres .info-ofres {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.offres .info-ofres .card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 300px;
+  gap: 20px;
+  background-color: #ffffff03;
+  padding: 30px;
+  border-radius: 30px;
+  backdrop-filter: blur(40px);
+}
+.offres .info-ofres .card i {
+  color: gray;
+  font-size: 60px;
+}
+.offres .info-ofres .card .info-card h3 {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.offres .info-ofres .card .info-card p {
+  font-size: 15px;
+  color: #3a3e3c;
+  text-transform: capitalize;
 }
