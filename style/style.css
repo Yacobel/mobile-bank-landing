@@ -249,7 +249,7 @@ nav .icone:hover {
     text-align: center;
   }
   .hero-cardbank {
-    height: 60vh;
+    height: 70vh;
   }
   .ball {
     top: 61%;
@@ -258,7 +258,7 @@ nav .icone:hover {
     width: 554px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   nav ul {
     display: none;
   }
@@ -315,9 +315,31 @@ nav .icone:hover {
     width: 100%;
   }
   .ball {
-    width: 450px;
-    height: 450px;
-    top: 65%;
+    width: unset;
+    height: unset;
+  }
+  .hero-cardbank .card {
+    transform: rotate(0deg);
+  }
+  .hero .info-hero {
+    height: 100vh;
+  }
+  .hero .info-hero .allusers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .info-hero .allusers .text {
+    text-align: center;
+  }
+  .hero .info-hero h2,
+  .credit-card .credit-info h2 {
+    font-size: 40px;
+  }
+  .hero .info-hero > p,
+  .credit-card .credit-info > p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -382,7 +404,7 @@ nav .icone:hover {
   margin: 0px auto 90px auto;
 }
 .silder .statics {
-  width: 90%;
+  /* width: 90%; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -500,8 +522,17 @@ nav .icone:hover {
   .silder .statics {
     flex-direction: column;
   }
-  .offres .info-ofres .card{
+  .offres .info-ofres .card {
     width: 100%;
+  }
+  .offres h2 {
+    font-size: 40px;
+  }
+  .offres .info-ofres .card i {
+    font-size: 40px;
+  }
+  .offres .info-ofres .card .info-card h3 {
+    font-size: 16px;
   }
 }
 /* end statics */
@@ -540,14 +571,14 @@ nav .icone:hover {
   .credit-info {
     text-align: center;
   }
-  .credit-card .credit-info p,.credit-card .credit-info h2 {
-    width: 100% ;
+  .credit-card .credit-info p,
+  .credit-card .credit-info h2 {
+    width: 100%;
     max-width: unset;
   }
-  
 }
 @media (max-width: 786px) {
-  .credit-card .credit-image img{
+  .credit-card .credit-image img {
     width: 90%;
   }
 }
@@ -627,7 +658,7 @@ nav .icone:hover {
 }
 
 @media (max-width: 786px) {
-  .rv{
+  .rv {
     flex-direction: column;
   }
 }
