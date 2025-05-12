@@ -421,6 +421,7 @@ nav .icone:hover {
 }
 .logos .container img {
   width: 200px;
+  height: 200px;
 }
 .logos {
   margin-top: 40px;
@@ -454,10 +455,11 @@ nav .icone:hover {
 }
 .offres h2 {
   color: white;
+  padding: 20px;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .offres .info-ofres {
   display: flex;
@@ -465,6 +467,7 @@ nav .icone:hover {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 20px;
 }
 .offres .info-ofres .card {
   display: flex;
