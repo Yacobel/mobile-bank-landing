@@ -135,18 +135,21 @@ nav .icone:hover {
   justify-content: center;
   align-items: flex-start;
 }
-.hero .info-hero h2 {
+.hero .info-hero h2,
+.credit-card .credit-info h2 {
   color: white;
-  font-size: 50px;
+  font-size: 49px;
   max-width: 740px;
 }
-.hero .info-hero > p {
+.hero .info-hero > p,
+.credit-card .credit-info > p {
   margin: 20px 0px;
   color: #3a3e3c;
   font-size: 17px;
   max-width: 500px;
 }
-.hero .info-hero button {
+.hero .info-hero button,
+.credit-card .credit-info button {
   padding: 8px 40px;
   background-color: #2bb32b;
   color: white;
@@ -213,10 +216,12 @@ nav .icone:hover {
   }
 }
 @media (max-width: 1130px) {
-  .hero .info-hero h2 {
+  .hero .info-hero h2,
+  .credit-card .credit-info h2 {
     font-size: 43px;
   }
-  .hero .info-hero > p {
+  .hero .info-hero > p,
+  .credit-card .credit-info > p {
     font-size: 14px;
     max-width: 400px;
   }
@@ -231,12 +236,14 @@ nav .icone:hover {
     justify-content: center;
     align-items: center;
   }
-  .hero .info-hero h2 {
+  .hero .info-hero h2,
+  .credit-card .credit-info h2 {
     font-size: 50px;
     text-align: center;
     padding: 30px 0px;
   }
-  .hero .info-hero > p {
+  .hero .info-hero > p,
+  .credit-card .credit-info > p {
     font-size: 18px;
     max-width: 500px;
     text-align: center;
@@ -372,9 +379,7 @@ nav .icone:hover {
 /* end hero section */
 .silder {
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 0px auto 90px auto;
 }
 .silder .statics {
   width: 90%;
@@ -487,4 +492,33 @@ nav .icone:hover {
   font-size: 15px;
   color: #3a3e3c;
   text-transform: capitalize;
+}
+/* end statics */
+
+.credit-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto 90px auto;
+  position: relative;
+}
+.credit-card .credit-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit-card .credit-image img {
+  width: 600px;
+}
+.lg2 {
+  position: absolute;
+
+  border-radius: 100%;
+  right: 12%;
+
+  background-color: #2bb32b;
+  box-shadow: 0px 0px 327px 413px rgba(43, 179, 43, 0.26);
+  z-index: -1;
 }
