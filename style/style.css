@@ -329,6 +329,7 @@ nav .icone:hover {
     transform: rotate(0deg);
   }
   .hero .info-hero {
+    
     height: 100vh;
   }
   .hero .info-hero .allusers {
@@ -708,8 +709,11 @@ nav .icone:hover {
   width: 250px;
   object-fit: cover;
 }
+.manage-image img {
+  width: 500px;
+}
 
-@media (max-width: 1999px) {
+@media (max-width: 968px) {
   .mange {
     flex-wrap: wrap;
     justify-content: center;
@@ -720,10 +724,22 @@ nav .icone:hover {
     text-align: center;
     margin-bottom: 10px;
   }
-  .manage-info .txt p{
+  .manage-info .txt p {
     width: unset;
     max-width: unset;
     text-align: center;
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 678px) {
+  .manage-info .txt h2 {
+    font-size: 40px;
+  }
+  .manage-info .images img {
+    width: 40%;
+    object-fit: cover;
+  }
+  .manage-image img {
+    width: 90%;
   }
 }
