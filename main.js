@@ -4,4 +4,5 @@ icone.addEventListener("click", () => {
   console.log("hhhh");
   ul.classList.toggle("show");
   icone.style.zIndex = "1";
+  icone.style.color = "#2bb32b";
 });
